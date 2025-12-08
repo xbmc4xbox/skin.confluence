@@ -361,7 +361,6 @@
 			</control>
 		</control>
 		<control type="group">
-			<depth>DepthFooter</depth>
 			<control type="label">
 				<description>number of files/pages in left list text label</description>
 				<left>40</left>

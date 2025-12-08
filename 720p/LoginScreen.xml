@@ -211,7 +211,6 @@
 			</control>
 		</control>
 		<control type="group">
-			<depth>DepthHeader</depth>
 			<include>Clock</include>
 			<control type="label">
 				<description>Date label</description>

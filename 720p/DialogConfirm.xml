@@ -5,7 +5,6 @@
 		<top>220</top>
 	</coordinates>
 	<include>dialogeffect</include>
-	<depth>DepthDialog+</depth>
 	<controls>
 		<include content="DialogBackgroundCommons">
 			<param name="DialogBackgroundWidth" value="650" />

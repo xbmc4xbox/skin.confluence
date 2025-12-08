@@ -4,7 +4,6 @@
 	<controls>
 		<!-- view mode, sizing, screen resolution -->
 		<control type="group" id="0">
-			<depth>DepthOSD+</depth>
 			<left>0</left>
 			<top>20</top>
 			<animation effect="fade" time="150">VisibleChange</animation>
@@ -52,7 +51,6 @@
 		</control>
 		<!-- media infos -->
 		<control type="group" id="1">
-			<depth>DepthOSD</depth>
 			<visible>[Player.ShowInfo | Window.IsActive(VideoOSD)] + ![Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks) | Window.IsVisible(SliderDialog)]</visible>
 			<animation effect="fade" time="150">VisibleChange</animation>
 			<control type="image" id="1">
@@ -98,7 +96,6 @@
 				<texture border="1">HomeNowPlayingBack.png</texture>
 			</control>
 			<control type="image" id="1">
-				<depth>DepthOSDPopout</depth>
 				<description>cover image</description>
 				<left>20</left>
 				<top>260r</top>
@@ -111,7 +108,6 @@
 				<visible>!VideoPlayer.Content(Movies)</visible>
 			</control>
 			<control type="image" id="1">
-				<depth>DepthOSDPopout</depth>
 				<description>Movie cover image</description>
 				<left>20</left>
 				<top>350r</top>

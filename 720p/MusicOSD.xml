@@ -3,14 +3,12 @@
 	<defaultcontrol always="true">100</defaultcontrol>
 	<onload>SetFocus(602)</onload>
 	<include>dialogeffect</include>
-	<depth>DepthOSD</depth>
 	<coordinates>
 		<left>0</left>
 		<top>0</top>
 	</coordinates>
 	<controls>
 		<control type="slider" id="87">
-			<depth>DepthOSD+</depth>
 			<description>Seek Slider</description>
 			<left>430</left>
 			<top>82r</top>

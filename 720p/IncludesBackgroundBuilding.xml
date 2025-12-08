@@ -2,7 +2,6 @@
 <includes>
 	<include name="CommonBackground">
 		<control type="image">
-			<depth>DepthBackground</depth>
 			<description>Normal Default Background Image</description>
 			<include>BackgroundDimensions</include>
 			<aspectratio>scale</aspectratio>
@@ -11,7 +10,6 @@
 			<include>VisibleFadeEffect</include>
 		</control>
 		<control type="image">
-			<depth>DepthBackground</depth>
 			<description>User Set Background Image</description>
 			<include>BackgroundDimensions</include>
 			<aspectratio>scale</aspectratio>
@@ -20,7 +18,6 @@
 			<include>VisibleFadeEffect</include>
 		</control>
 		<control type="image">
-			<depth>DepthBackground</depth>
 			<include>BackgroundDimensions</include>
 			<aspectratio>scale</aspectratio>
 			<texture background="true">$INFO[ListItem.Art(fanart)]</texture>
@@ -45,7 +42,6 @@
 			<visible>String.IsEmpty(Window(Videos).Property(PlayingBackgroundMedia))</visible>
 		</control>
 		<control type="videowindow">
-			<depth>DepthBackground</depth>
 			<left>0</left>
 			<top>0</top>
 			<width>1280</width>
@@ -53,7 +49,6 @@
 			<visible>Player.HasVideo + !Slideshow.IsActive + !Window.IsActive(movieinformation) + !Skin.HasSetting(ShowBackgroundVideo)</visible>
 		</control>
 		<control type="image">
-			<depth>DepthBackground</depth>
 			<left>-20</left>
 			<top>-40</top>
 			<width>1320</width>
@@ -65,7 +60,6 @@
 	</include>
 	<include name="ContentPanelBackgrounds">
 		<control type="image">
-			<depth>DepthFloor</depth>
 			<left>-20</left>
 			<top></top>
 			<bottom>0</bottom>

@@ -24,7 +24,6 @@
 		</control>
 		<!-- media infos -->
 		<control type="group">
-			<depth>DepthOSD</depth>
 			<animation effect="fade" time="150">VisibleChange</animation>
 			<visible>[Player.ShowInfo | Window.IsActive(MusicOSD)] + ![Window.IsVisible(AddonSettings) | Window.IsVisible(SelectDialog) | Window.IsVisible(VisualisationPresetList) | Window.IsVisible(Addon)]</visible>
 			<control type="image">
@@ -84,7 +83,6 @@
 				<texture border="1">HomeNowPlayingBack.png</texture>
 			</control>
 			<control type="image">
-				<depth>DepthOSDPopout</depth>
 				<description>cover image</description>
 				<left>20</left>
 				<top>250r</top>

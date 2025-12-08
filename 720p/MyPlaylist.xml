@@ -17,7 +17,6 @@
 			<include>MusicInfoListView</include>
 		</control>
 		<control type="group">
-			<depth>DepthFooter</depth>
 			<include>CommonPageCount</include>
 			<include>CommonNowPlaying</include>
 		</control>

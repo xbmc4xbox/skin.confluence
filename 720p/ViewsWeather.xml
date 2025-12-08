@@ -374,7 +374,6 @@
 				<visible>Control.IsVisible(51)</visible>
 			</control>
 			<control type="label">
-				<depth>DepthFooter</depth>
 				<description>number of files/pages</description>
 				<left>90</left>
 				<top>627</top>
@@ -1098,7 +1097,6 @@
 				<visible>Control.IsVisible(52)</visible>
 			</control>
 			<control type="label">
-				<depth>DepthFooter</depth>
 				<description>number of files/pages</description>
 				<right>40</right>
 				<top>627</top>
