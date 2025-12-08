@@ -439,7 +439,6 @@
 			<depth>DepthFooter</depth>
 			<include>CommonNowPlaying</include>
 		</control>
-		<include>MainWindowMouseButtons</include>
 		<control type="group">
 			<left>-250</left>
 			<include>SideBladeLeft</include>

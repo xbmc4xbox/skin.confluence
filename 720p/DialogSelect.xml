@@ -77,19 +77,6 @@
 				<align>center</align>
 				<font>font13</font>
 			</control>
-			<control type="button">
-				<description>Close Window button</description>
-				<left>760</left>
-				<top>15</top>
-				<width>64</width>
-				<height>32</height>
-				<label>-</label>
-				<font>-</font>
-				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
-				<texturenofocus>DialogCloseButton.png</texturenofocus>
-				<visible>system.getbool(input.enablemouse)</visible>
-			</control>
 			<control type="list" id="3">
 				<left>20</left>
 				<top>67</top>

@@ -21,7 +21,6 @@
 			<include>CommonPageCount</include>
 			<include>CommonNowPlaying</include>
 		</control>
-		<include>MainWindowMouseButtons</include>
 		<include>BehindDialogFadeOut</include>
 		<include>ScrollOffsetLabel</include>
 		<include content="CommonWindowHeader" condition="Window.IsActive(videoplaylist)">
