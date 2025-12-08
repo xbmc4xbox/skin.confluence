@@ -19,7 +19,6 @@
 			<left>25</left>
 			<top>162</top>
 			<defaultcontrol always="true">603</defaultcontrol>
-			<visible>!VideoPlayer.Content(LiveTV)</visible>
 			<control type="button" id="600">
 				<left>0</left>
 				<top>0</top>
@@ -33,7 +32,6 @@
 				<onup>300</onup>
 				<ondown>200</ondown>
 				<onclick>PlayerControl(Previous)</onclick>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
 			<control type="button" id="601">
 				<left>40</left>
@@ -48,7 +46,6 @@
 				<onup>300</onup>
 				<ondown>200</ondown>
 				<onclick>PlayerControl(Rewind)</onclick>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
 			<control type="togglebutton" id="603">
 				<left>80</left>
@@ -66,7 +63,6 @@
 				<onup>300</onup>
 				<ondown>200</ondown>
 				<onclick>PlayerControl(Play)</onclick>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
 			<control type="button" id="602">
 				<left>120</left>
@@ -82,7 +78,6 @@
 				<ondown>200</ondown>
 				<onclick>down</onclick>
 				<onclick>PlayerControl(Stop)</onclick>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
 			<control type="button" id="604">
 				<left>160</left>
@@ -97,7 +92,6 @@
 				<onup>300</onup>
 				<ondown>200</ondown>
 				<onclick>PlayerControl(Forward)</onclick>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
 			<control type="button" id="605">
 				<left>200</left>
@@ -112,7 +106,6 @@
 				<onup>300</onup>
 				<ondown>200</ondown>
 				<onclick>PlayerControl(Next)</onclick>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
 			<control type="button" id="606">
 				<left>240</left>
@@ -129,7 +122,6 @@
 				<onclick>PlayerControl(record)</onclick>
 				<enable>Player.CanRecord</enable>
 				<animation effect="fade" start="100" end="30" time="75" condition="!Player.CanRecord">Conditional</animation>
-				<visible>!VideoPlayer.Content(LiveTV)</visible>
 			</control>
 			<control type="group">
 				<animation effect="slide" start="0,0" end="40,0" time="0" condition="!Player.HasAudio">Conditional</animation>
@@ -146,7 +138,6 @@
 					<onright>608</onright>
 					<onup>100</onup>
 					<ondown>100</ondown>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
 				<control type="image">
 					<left>325</left>
@@ -156,7 +147,6 @@
 					<texture>OSDRepeatNF.png</texture>
 					<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
 					<visible>!Control.HasFocus(607)</visible>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
 				<control type="image">
 					<left>325</left>
@@ -166,7 +156,6 @@
 					<texture>OSDRepeatFO.png</texture>
 					<visible>!Playlist.IsRepeat + !Playlist.IsRepeatOne</visible>
 					<visible>Control.HasFocus(607)</visible>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
 				<control type="image">
 					<left>325</left>
@@ -176,7 +165,6 @@
 					<texture>OSDRepeatOneNF.png</texture>
 					<visible>Playlist.IsRepeatOne</visible>
 					<visible>!Control.HasFocus(607)</visible>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
 				<control type="image">
 					<left>325</left>
@@ -186,7 +174,6 @@
 					<texture>OSDRepeatOneFO.png</texture>
 					<visible>Playlist.IsRepeatOne</visible>
 					<visible>Control.HasFocus(607)</visible>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
 				<control type="image">
 					<left>325</left>
@@ -196,7 +183,6 @@
 					<texture>OSDRepeatAllNF.png</texture>
 					<visible>Playlist.IsRepeat</visible>
 					<visible>!Control.HasFocus(607)</visible>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
 				<control type="image">
 					<left>325</left>
@@ -206,7 +192,6 @@
 					<texture>OSDRepeatAllFO.png</texture>
 					<visible>Playlist.IsRepeat</visible>
 					<visible>Control.HasFocus(607)</visible>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
 				<control type="togglebutton" id="608">
 					<left>365</left>
@@ -224,7 +209,6 @@
 					<onright>609</onright>
 					<onup>100</onup>
 					<ondown>100</ondown>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
 				<control type="togglebutton" id="609">
 					<left>405</left>
@@ -249,147 +233,7 @@
 					<altclick>RunScript($INFO[Skin.String(LyricScript_Path)])</altclick>
 					<usealttexture>String.IsEmpty(Skin.String(LyricScript_Path))</usealttexture>
 					<visible>Player.HasAudio</visible>
-					<visible>!VideoPlayer.Content(LiveTV)</visible>
 				</control>
-			</control>
-		</control>
-		<control type="group" id="100">
-			<left>25</left>
-			<top>162</top>
-			<defaultcontrol always="true">700</defaultcontrol>
-			<visible>VideoPlayer.Content(LiveTV)</visible>
-			<control type="button" id="701">
-				<left>0</left>
-				<top>0</top>
-				<width>40</width>
-				<height>40</height>
-				<label>-</label>
-				<texturefocus>OSDRewindFO.png</texturefocus>
-				<texturenofocus>OSDRewindNF.png</texturenofocus>
-				<onleft>706</onleft>
-				<onright>702</onright>
-				<onup>300</onup>
-				<ondown>200</ondown>
-				<onclick>PlayerControl(Rewind)</onclick>
-				<visible>VideoPlayer.Content(LiveTV)</visible>
-				<enable>Player.SeekEnabled</enable>
-				<animation effect="fade" start="100" end="50" time="75" condition="true">Conditional</animation>
-			</control>
-			<control type="button" id="702">
-				<left>40</left>
-				<top>0</top>
-				<width>40</width>
-				<height>40</height>
-				<label>-</label>
-				<texturefocus>OSDStopFO.png</texturefocus>
-				<texturenofocus>OSDStopNF.png</texturenofocus>
-				<onleft>701</onleft>
-				<onright>703</onright>
-				<onup>300</onup>
-				<ondown>200</ondown>
-				<onclick>down</onclick>
-				<onclick>PlayerControl(Stop)</onclick>
-				<visible>VideoPlayer.Content(LiveTV)</visible>
-			</control>
-			<control type="togglebutton" id="703">
-				<left>80</left>
-				<top>0</top>
-				<width>40</width>
-				<height>40</height>
-				<label>-</label>
-				<texturefocus>OSDPauseFO.png</texturefocus>
-				<texturenofocus>OSDPauseNF.png</texturenofocus>
-				<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
-				<alttexturefocus>OSDPlayFO.png</alttexturefocus>
-				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
-				<onleft>702</onleft>
-				<onright>704</onright>
-				<onup>300</onup>
-				<ondown>200</ondown>
-				<onclick>PlayerControl(Play)</onclick>
-				<visible>VideoPlayer.Content(LiveTV)</visible>
-				<enable>false</enable>
-				<enable>Player.PauseEnabled</enable>
-				<animation effect="fade" start="100" end="50" time="75" condition="true">Conditional</animation>
-			</control>
-			<control type="button" id="704">
-				<left>120</left>
-				<top>0</top>
-				<width>40</width>
-				<height>40</height>
-				<label>-</label>
-				<texturefocus>OSDForwardFO.png</texturefocus>
-				<texturenofocus>OSDForwardNF.png</texturenofocus>
-				<onleft>703</onleft>
-				<onright>700</onright>
-				<onup>300</onup>
-				<ondown>200</ondown>
-				<onclick>PlayerControl(Forward)</onclick>
-				<visible>VideoPlayer.Content(LiveTV)</visible>
-				<enable>Player.SeekEnabled</enable>
-				<animation effect="fade" start="100" end="50" time="75" condition="true">Conditional</animation>
-			</control>
-			<control type="button" id="700">
-				<left>200</left>
-				<top>0</top>
-				<width>40</width>
-				<height>40</height>
-				<label>-</label>
-				<texturefocus>OSDChannelUPFO.png</texturefocus>
-				<texturenofocus>OSDChannelUPNF.png</texturenofocus>
-				<onleft>704</onleft>
-				<onright>705</onright>
-				<onup>300</onup>
-				<ondown>200</ondown>
-				<onclick>ChannelDown</onclick>
-				<visible>VideoPlayer.Content(LiveTV)</visible>
-			</control>
-			<control type="button" id="705">
-				<left>240</left>
-				<top>0</top>
-				<width>40</width>
-				<height>40</height>
-				<label>-</label>
-				<texturefocus>OSDChannelDownFO.png</texturefocus>
-				<texturenofocus>OSDChannelDownNF.png</texturenofocus>
-				<onleft>700</onleft>
-				<onright>706</onright>
-				<onup>300</onup>
-				<ondown>200</ondown>
-				<onclick>ChannelUp</onclick>
-				<visible>VideoPlayer.Content(LiveTV)</visible>
-			</control>
-			<control type="button" id="706">
-				<left>280</left>
-				<top>0</top>
-				<width>40</width>
-				<height>40</height>
-				<label>-</label>
-				<texturefocus>OSDRecordOffFO.png</texturefocus>
-				<texturenofocus>OSDRecordOffNF.png</texturenofocus>
-				<onleft>705</onleft>
-				<onright>707</onright>
-				<onup>300</onup>
-				<ondown>200</ondown>
-				<onclick>PlayerControl(record)</onclick>
-				<enable>Player.CanRecord</enable>
-				<animation effect="fade" start="100" end="30" time="75" condition="!Player.CanRecord">Conditional</animation>
-				<visible>VideoPlayer.Content(LiveTV)</visible>
-			</control>
-			<control type="button" id="707">
-				<left>400</left>
-				<top>0</top>
-				<width>40</width>
-				<height>40</height>
-				<label>-</label>
-				<texturefocus>OSDRadioRDSFO.png</texturefocus>
-				<texturenofocus>OSDRadioRDSNF.png</texturenofocus>
-				<onleft>706</onleft>
-				<onright>701</onright>
-				<onup>300</onup>
-				<ondown>200</ondown>
-				<onclick>ActivateWindow(PVRRadioRDSInfo)</onclick>
-				<visible>VideoPlayer.Content(LiveTV) + RDS.HasRadiotextPlus</visible>
 			</control>
 		</control>
 		<control type="image">

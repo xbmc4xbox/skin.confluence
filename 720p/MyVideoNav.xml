@@ -33,8 +33,6 @@
 			<include>AddonInfoListView1</include>
 			<!-- view id = 551 -->
 			<include>AddonInfoThumbView1</include>
-			<!-- view id = 560 -->
-			<include>LiveTVView1</include>
 		</control>
 		<control type="group">
 			<depth>DepthFooter</depth>

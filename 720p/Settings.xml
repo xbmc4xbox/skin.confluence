@@ -127,12 +127,6 @@
 						<onclick>ActivateWindow(MediaSettings)</onclick>
 						<icon>-</icon>
 					</item>
-					<item id="3">
-						<label>14204</label>
-						<label2>31432</label2>
-						<onclick>ActivateWindow(PVRSettings)</onclick>
-						<icon>special://skin/backgrounds/tv.jpg</icon>
-					</item>
 					<item id="4">
 						<label>24001</label>
 						<label2>31433</label2>

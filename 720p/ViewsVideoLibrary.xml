@@ -13,7 +13,6 @@
 			<include>VisibleFadeEffect</include>
 			<control type="fixedlist" id="501">
 				<visible>Container.Content(Movies) | Container.Content(Seasons) | Container.Content(TVShows) | Container.Content(Sets)</visible>
-				<visible>!Container.Content(LiveTV)</visible>
 				<left>-183</left>
 				<top>0</top>
 				<width>1343</width>
@@ -171,7 +170,6 @@
 				<include>AudioCodecFlaggingConditions</include>
 				<include>AudioChannelsFlaggingConditions</include>
 				<include>AspectCodecFlaggingConditions</include>
-				<include>VideoStereoscopicsFlaggingConditions</include>
 				<include>VideoTypeHackFlaggingConditions</include>
 			</control>
 		</control>
@@ -748,7 +746,6 @@
 				<include>AudioCodecFlaggingConditions</include>
 				<include>AudioChannelsFlaggingConditions</include>
 				<include>AspectCodecFlaggingConditions</include>
-				<include>VideoStereoscopicsFlaggingConditions</include>
 				<include>VideoTypeHackFlaggingConditions</include>
 			</control>
 			<control type="grouplist">
@@ -1071,7 +1068,6 @@
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
 					<include>AspectCodecFlaggingConditions</include>
-					<include>VideoStereoscopicsFlaggingConditions</include>
 					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="label">
@@ -1177,7 +1173,6 @@
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
 					<include>AspectCodecFlaggingConditions</include>
-					<include>VideoStereoscopicsFlaggingConditions</include>
 					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="textbox">
@@ -1408,7 +1403,6 @@
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
 					<include>AspectCodecFlaggingConditions</include>
-					<include>VideoStereoscopicsFlaggingConditions</include>
 					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="image">
@@ -1514,7 +1508,6 @@
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
 					<include>AspectCodecFlaggingConditions</include>
-					<include>VideoStereoscopicsFlaggingConditions</include>
 					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="image">
@@ -1763,7 +1756,6 @@
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
 					<include>AspectCodecFlaggingConditions</include>
-					<include>VideoStereoscopicsFlaggingConditions</include>
 					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="image">
@@ -1928,7 +1920,6 @@
 					<include>AudioCodecFlaggingConditions</include>
 					<include>AudioChannelsFlaggingConditions</include>
 					<include>AspectCodecFlaggingConditions</include>
-					<include>VideoStereoscopicsFlaggingConditions</include>
 					<include>VideoTypeHackFlaggingConditions</include>
 				</control>
 				<control type="image">

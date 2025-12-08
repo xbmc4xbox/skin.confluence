@@ -33,7 +33,7 @@
 		<control type="image">
 			<include>BackgroundDimensions</include>
 			<texture>special://skin/backgrounds/media-overlay.jpg</texture>
-			<visible>[Player.HasVideo + !Slideshow.IsActive + !Window.IsActive(movieinformation) + !Skin.HasSetting(ShowBackgroundVideo)] + !Window.IsVisible(TVChannels) + !Window.IsVisible(RadioChannels)</visible>
+			<visible>Player.HasVideo + !Slideshow.IsActive + !Window.IsActive(movieinformation) + !Skin.HasSetting(ShowBackgroundVideo)</visible>
 			<include>VisibleFadeEffect</include>
 		</control>
 		<control type="visualisation">
@@ -50,7 +50,7 @@
 			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
-			<visible>Player.HasVideo + !Slideshow.IsActive + !Window.IsActive(movieinformation) + !Skin.HasSetting(ShowBackgroundVideo) + !Window.IsVisible(TVChannels) + !Window.IsVisible(RadioChannels)</visible>
+			<visible>Player.HasVideo + !Slideshow.IsActive + !Window.IsActive(movieinformation) + !Skin.HasSetting(ShowBackgroundVideo)</visible>
 		</control>
 		<control type="image">
 			<depth>DepthBackground</depth>
