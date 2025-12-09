@@ -688,3 +688,43 @@ msgstr ""
 msgctxt "#31960"
 msgid "RADIO"
 msgstr ""
+
+#: /xml/DialogProgramInfo.xml
+msgctxt "#31991"
+msgid "Publisher"
+msgstr ""
+
+#: /xml/DialogProgramInfo.xml
+msgctxt "#31992"
+msgid "Developer"
+msgstr ""
+
+#: /xml/DialogProgramInfo.xml
+msgctxt "#31993"
+msgid "Descriptor"
+msgstr ""
+
+#: /xml/DialogProgramInfo.xml
+msgctxt "#31994"
+msgid "Release date"
+msgstr ""
+
+#: /xml/DialogProgramInfo.xml
+msgctxt "#31995"
+msgid "General feature"
+msgstr ""
+
+#: /xml/DialogProgramInfo.xml
+msgctxt "#31996"
+msgid "Online feature"
+msgstr ""
+
+#: /xml/DialogProgramInfo.xml
+msgctxt "#31997"
+msgid "Platform"
+msgstr ""
+
+#: /xml/DialogProgramInfo.xml
+msgctxt "#31998"
+msgid "ESRB Rating"
+msgstr ""
