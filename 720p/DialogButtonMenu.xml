@@ -166,6 +166,21 @@
 				<font>font13</font>
 				<label>13013</label>
 			</control>
+			<control type="button" id="15">
+				<description>Reset button</description>
+				<width>340</width>
+				<height>40</height>
+				<textcolor>grey2</textcolor>
+				<focusedcolor>white</focusedcolor>
+				<align>center</align>
+				<textwidth>290</textwidth>
+				<texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
+				<texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
+				<onclick>RestartApp()</onclick>
+				<pulseonselect>no</pulseonselect>
+				<font>font13</font>
+				<label>10035</label>
+			</control>
 			<control type="button" id="9">
 				<description>Logoff button</description>
 				<width>340</width>
