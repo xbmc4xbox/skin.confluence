@@ -13,8 +13,6 @@
 			<include>CommonRootView</include>
 			<!-- view id = 51 -->
 			<include>FullWidthList</include>
-			<!-- view id = 500 -->
-			<include>ThumbnailView</include>
 			<!-- view id = 550 -->
 			<include>AddonInfoListView1</include>
 			<!-- view id = 551 -->
@@ -74,19 +72,11 @@
 					<usealttexture>Container.SortDirection(Ascending)</usealttexture>
 				</control>
 				<control type="edit" id="19">
-					<visible>Container.CanFilter + !Container.CanFilterAdvanced</visible>
+					<visible>Container.CanFilter</visible>
 					<description>Filter</description>
 					<textwidth>230</textwidth>
 					<include>ButtonCommonValues</include>
 					<label>587</label>
-				</control>
-				<control type="radiobutton" id="20">
-					<visible>Container.CanFilterAdvanced</visible>
-					<description>Filter</description>
-					<include>ButtonCommonValues</include>
-					<label>587</label>
-					<onclick>right</onclick>
-					<onclick>Filter</onclick>
 				</control>
 				<control type="label" id="203">
 					<width>250</width>
